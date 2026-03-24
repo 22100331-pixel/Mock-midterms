@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.Calculator" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/operator_bg</item>
+        <item name="colorPrimaryVariant">@color/operator_bg</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="android:windowBackground">@color/background</item>
+    </style>
+
+    <!-- Number buttons: white/dark bg, large text -->
+    <style name="CalcButtonNumber" parent="Widget.MaterialComponents.Button">
+        <item name="android:layout_margin">4dp</item>
+        <item name="android:textColor">@color/btn_number_text</item>
+        <item name="android:textStyle">normal</item>
+        <item name="backgroundTint">@color/btn_number_bg</item>
+        <item name="cornerRadius">16dp</item>
+        <item name="elevation">2dp</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+    </style>
+
+    <!-- Secondary buttons: gray bg (AC, +/-, %, DEL, C) -->
+    <style name="CalcButtonSecondary" parent="Widget.MaterialComponents.Button">
+        <item name="android:layout_margin">4dp</item>
+        <item name="android:textColor">@color/btn_secondary_text</item>
+        <item name="android:textStyle">normal</item>
+        <item name="backgroundTint">@color/btn_secondary_bg</item>
+        <item name="cornerRadius">16dp</item>
+        <item name="elevation">2dp</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+    </style>
+
+    <!-- Operator buttons: orange bg -->
+    <style name="CalcButtonOperator" parent="Widget.MaterialComponents.Button">
+        <item name="android:layout_margin">4dp</item>
+        <item name="android:textColor">@color/operator_text_white</item>
+        <item name="android:textStyle">normal</item>
+        <item name="backgroundTint">@color/operator_bg</item>
+        <item name="cornerRadius">16dp</item>
+        <item name="elevation">2dp</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+    </style>
+
+    <!-- Equals button: orange bg -->
+    <style name="CalcButtonEquals" parent="Widget.MaterialComponents.Button">
+        <item name="android:layout_margin">4dp</item>
+        <item name="android:textColor">@color/equals_text</item>
+        <item name="android:textStyle">bold</item>
+        <item name="backgroundTint">@color/equals_bg</item>
+        <item name="cornerRadius">16dp</item>
+        <item name="elevation">4dp</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+    </style>
+
+</resources>

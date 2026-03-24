@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Dark theme colors (night mode) -->
+    <color name="background">#1C1C1E</color>
+    <color name="display_bg">#2C2C2E</color>
+    <color name="display_text">#FFFFFF</color>
+    <color name="display_secondary_text">#8E8E93</color>
+
+    <color name="btn_number_bg">#3A3A3C</color>
+    <color name="btn_number_text">#FFFFFF</color>
+
+    <color name="btn_secondary_bg">#636366</color>
+    <color name="btn_secondary_text">#FFFFFF</color>
+
+    <color name="operator_bg">#FF9500</color>
+    <color name="operator_text">#FF9500</color>
+    <color name="operator_text_white">#FFFFFF</color>
+
+    <color name="equals_bg">#FF9500</color>
+    <color name="equals_text">#FFFFFF</color>
+
+    <color name="history_bg">#2C2C2E</color>
+    <color name="history_text">#FFFFFF</color>
+    <color name="history_secondary">#8E8E93</color>
+</resources>
