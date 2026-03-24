@@ -74,7 +74,6 @@ public class MainActivity extends AppCompatActivity {
         // Set up history RecyclerView
         historyAdapter = new HistoryAdapter();
         LinearLayoutManager layoutManager = new LinearLayoutManager(this);
-        layoutManager.setReverseLayout(false);
         rvHistory.setLayoutManager(layoutManager);
         rvHistory.setAdapter(historyAdapter);
 
